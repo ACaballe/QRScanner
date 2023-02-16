@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="dark_blue">#1C2541</color>
+    <color name="medium_blue">#3C5979</color>
+    <color name="light_blue">#5C7F99</color>
+    <color name="greyish_blue">#98AFC7</color>
+    <color name="light_grey">#D9E2EC</color>
 </resources>

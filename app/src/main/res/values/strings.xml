@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">QRScanner</string>
+    <string name="app_name" translatable="false">QRScanner</string>
+
+    <!-- MAIN -->
+    <string name="scanResultTitle">Scan result:</string>
+    <string name="scanResultText" translatable="false">...</string>
+    <string name="access">Access</string>
+    <string name="scan">Scan new</string>
+    <!-- MAIN - TOAST -->
+    <string name="scanCanceled">Scan canceled</string>
+    <string name="qrNotScanned">QR not scanned</string>
+    <string name="textCopiedToClipboard">Text copied to clipboard</string>
+    <string name="errorOnAccess">Error on access</string>
+    <!-- QRScanner -->
+    <string name="scanYourCode">Scan your QR code</string>
+    <!-- MENU -->
+    <string name="home">Home</string>
+    <string name="settings">Setting</string>
+    <string name="record">History</string>
+    <!-- SCAN HISTORY -->
+    <string name="scanHistory">Scan history:</string>
 </resources>

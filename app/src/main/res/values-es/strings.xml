@@ -1,3 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">QRScanner</string>
+    <string name="scanResultTitle">Resultado del escáner</string>
+    <string name="access">Acceder</string>
+    <string name="scan">Escanear nuevo</string>
+    <string name="scanYourCode">Escanea tu código QR</string>
+    <string name="scanCanceled">Escaner cancelado</string>
+    <string name="qrNotScanned">QR no escaneado</string>
+    <string name="textCopiedToClipboard">Texto copiado en el portapapeles</string>
+    <string name="errorOnAccess">Error al acceder</string>
+    <string name="settings">Ajustes</string>
+    <string name="record">Historial</string>
+    <string name="scanHistory">Historial del escaner:</string>
+    <string name="home">Inicio</string>
 </resources>
