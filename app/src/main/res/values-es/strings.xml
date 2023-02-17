@@ -13,4 +13,8 @@
     <string name="record">Historial</string>
     <string name="scanHistory">Historial del escaner:</string>
     <string name="home">Inicio</string>
+    <string name="cancel">Cancelar</string>
+    <string name="copy">Copiar</string>
+    <string name="delete">Borrar</string>
+    <string name="elementDeleted">El elemento se ha borrado</string>
 </resources>

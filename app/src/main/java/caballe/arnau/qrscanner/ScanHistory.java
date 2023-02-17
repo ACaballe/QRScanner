@@ -35,7 +35,7 @@ public class ScanHistory extends AppCompatActivity implements NavigationView.OnN
         setNavigationViewListener();
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
-        MyRecyclerViewAdapter adapter = new MyRecyclerViewAdapter(elements);
+        MyRecyclerViewAdapter adapter = new MyRecyclerViewAdapter(this, elements);
 
         viewLlista = findViewById(R.id.viewLlista);
         viewLlista.setAdapter(adapter);
@@ -44,7 +44,7 @@ public class ScanHistory extends AppCompatActivity implements NavigationView.OnN
     }
 
     /* LOAD HISTORY IN RECYCLERVIEW */
-    private void loadHistory(){
+    public void loadHistory(){
         List<String> scanHistory = getScanHistory(ScanHistory.this);
         for (int i = scanHistory.size() - 1; i >= 0; i--){
             elements.add(scanHistory.get(i));

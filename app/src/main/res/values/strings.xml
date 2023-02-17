@@ -11,12 +11,21 @@
     <string name="qrNotScanned">QR not scanned</string>
     <string name="textCopiedToClipboard">Text copied to clipboard</string>
     <string name="errorOnAccess">Error on access</string>
+
     <!-- QRScanner -->
     <string name="scanYourCode">Scan your QR code</string>
+
     <!-- MENU -->
     <string name="home">Home</string>
     <string name="settings">Setting</string>
     <string name="record">History</string>
+
     <!-- SCAN HISTORY -->
     <string name="scanHistory">Scan history:</string>
+    <!-- SCAN HISTORY - ALERT DIALOG -->
+    <string name="copy">Copy</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <!-- SCAN HISTORY - TOAST -->
+    <string name="elementDeleted">Element deleted</string>
 </resources>
