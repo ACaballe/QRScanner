@@ -18,6 +18,13 @@
         android:theme="@style/Theme.QRScanner"
         tools:targetApi="31">
         <activity
+            android:name=".QRGenerator"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ScanHistory"
             android:exported="false">
             <meta-data
@@ -37,6 +44,17 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="caballe.arnau.qrscanner.provider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+
     </application>
 
 </manifest>

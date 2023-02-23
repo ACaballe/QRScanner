@@ -126,12 +126,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (item.getItemId()) {
             case R.id.menu_home:
                 break;
-            case R.id.menu_settings:
-                Toast.makeText(this,getString(R.string.settings),Toast.LENGTH_SHORT).show();
-                break;
             case R.id.menu_record:
                 Intent scanHistory = new Intent(this, ScanHistory.class);
                 startActivity(scanHistory);
+                break;
+            case R.id.menu_qrGenerator:
+                Intent qrGenerator = new Intent(this, QRGenerator.class);
+                startActivity(qrGenerator);
+                break;
+            case R.id.menu_settings:
+                Toast.makeText(this,getString(R.string.settings),Toast.LENGTH_SHORT).show();
                 break;
 
         }

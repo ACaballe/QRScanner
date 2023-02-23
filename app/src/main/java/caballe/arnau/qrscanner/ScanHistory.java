@@ -82,12 +82,15 @@ public class ScanHistory extends AppCompatActivity implements NavigationView.OnN
                 Intent actHome = new Intent(this,MainActivity.class);
                 startActivity(actHome);
                 break;
+            case R.id.menu_record:
+                break;
+            case R.id.menu_qrGenerator:
+                Intent qrGenerator = new Intent(this, QRGenerator.class);
+                startActivity(qrGenerator);
+                break;
             case R.id.menu_settings:
                 Toast.makeText(this,getString(R.string.settings),Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.menu_record:
-                break;
-
         }
         //close navigation drawer
         mDrawerLayout.closeDrawer(GravityCompat.START);

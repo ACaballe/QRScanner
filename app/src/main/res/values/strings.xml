@@ -1,9 +1,14 @@
 <resources>
     <string name="app_name" translatable="false">QRScanner</string>
 
+    <!-- MENU -->
+    <string name="home">Home</string>
+    <string name="settings">Setting</string>
+    <string name="record">History</string>
+    <string name="qrGenerator">QR Generator</string>
+
     <!-- MAIN -->
     <string name="scanResultTitle">Scan result:</string>
-    <string name="scanResultText" translatable="false">...</string>
     <string name="access">Access</string>
     <string name="scan">Scan new</string>
     <!-- MAIN - TOAST -->
@@ -15,11 +20,6 @@
     <!-- QRScanner -->
     <string name="scanYourCode">Scan your QR code</string>
 
-    <!-- MENU -->
-    <string name="home">Home</string>
-    <string name="settings">Setting</string>
-    <string name="record">History</string>
-
     <!-- SCAN HISTORY -->
     <string name="scanHistory">Scan history:</string>
     <!-- SCAN HISTORY - ALERT DIALOG -->
@@ -28,4 +28,12 @@
     <string name="cancel">Cancel</string>
     <!-- SCAN HISTORY - TOAST -->
     <string name="elementDeleted">Element deleted</string>
+
+    <!-- QR GENERATOR -->
+    <string name="generateQR">Generate QR</string>
+    <string name="shareQR">Share QR</string>
+    <!-- QR GENERATOR - TOAST -->
+    <string name="errorGeneratingQR">Error on generating QR</string>
+    <string name="noValues">No values entered</string>
+    
 </resources>

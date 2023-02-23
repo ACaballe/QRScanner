@@ -17,4 +17,9 @@
     <string name="copy">Copiar</string>
     <string name="delete">Borrar</string>
     <string name="elementDeleted">El elemento se ha borrado</string>
+    <string name="qrGenerator">Generador de QR</string>
+    <string name="generateQR">Generar QR</string>
+    <string name="errorGeneratingQR">Error al generar el código  QR</string>
+    <string name="noValues">No se han introducido valores</string>
+    <string name="shareQR">Compartir código QR</string>
 </resources>
